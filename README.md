@@ -76,16 +76,6 @@ If you're using antigen, just add the following code to your `~/.zshrc` where yo
     PROMPT='%B%m%~%b$(git_super_status) %# '
 ```
 
-
-### Haskell (optional)
-
-There is now a Haskell implementation as well, which can be four to six times faster than the Python one. The reason is not that Haskell is faster in itself (although it is), but that this implementation calls `git` only once. To install, do the following:
-
-1.  Make sure Haskell is installed on your system
-2.  Run `cabal build` from this folder
-3.  Define the variable `GIT_PROMPT_EXECUTABLE="haskell"` somewhere in
-    your `.zshrc`
-
 ## Customisation
 
 - You may redefine the function `git_super_status` (after the `source` statement) to adapt it to your needs (to change the order in which the information is displayed).
