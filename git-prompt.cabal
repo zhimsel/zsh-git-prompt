@@ -9,15 +9,15 @@ synopsis:          Informative git prompt for zsh
 
 -- description:         
 
-homepage:            https://github.com/olivierverdier/zsh-git-prompt
+homepage:            https://github.com/zhimsel/zsh-git-prompt
 
 license:             MIT
 
 license-file:        LICENSE.md
 
-author:              Olivier Verdier
+author:              Zach Himsel
 
-maintainer:          olivier.verdier@gmail.com
+maintainer:          zach@himsel.net
 
 build-type:          Simple
 
