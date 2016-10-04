@@ -18,7 +18,9 @@ The prompt may look like the following:
 
 Here is how it could look like when you are ahead by 4 commits, behind by 5 commits, and have 1 staged files, 1 changed but unstaged file, and some untracked files, on branch `dev`:
 
-![Example][]
+
+<img src="https://github.com/olivierverdier/zsh-git-prompt/raw/master/screenshot.png" width=300/>
+
 
 ## Prompt Structure
 
@@ -70,7 +72,7 @@ Symbol | Meaning
 If you're using antigen, just add the following code to your `~/.zshrc` where you're loading your other zsh plugins.
 ```sh
     source $HOME/.zsh/antigen/antigen.zsh
-    antigen bundle olivierverdier/zsh-git-prompt
+    antigen bundle zhimsel/zsh-git-prompt
     antigen apply
     # an example prompt
     PROMPT='%B%m%~%b$(git_super_status) %# '
@@ -85,5 +87,4 @@ If you're using antigen, just add the following code to your `~/.zshrc` where yo
 **Enjoy!**
 
   [blog post]: http://sebastiancelis.com/2009/nov/16/zsh-prompt-git-users/
-  [Example]: https://github.com/olivierverdier/zsh-git-prompt/raw/master/screenshot.png
   
